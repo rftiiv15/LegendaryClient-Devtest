@@ -68,7 +68,7 @@
             <Label Content="Defense"/>
             <Label Content="Utility"/>
         </ComboBox>
-        <ListView x:Name="AvailableRuneList" HorizontalAlignment="Left" Height="438" Margin="10,100,0,0" VerticalAlignment="Top" Width="501" MouseDoubleClick="AvailableRuneList_DoubleClickOrRightClick" MouseRightButtonUp="AvailableRuneList_DoubleClickOrRightClick" Foreground="White" FontSize="16" Background="#66505050">
+        <ListView x:Name="AvailableRuneList" HorizontalAlignment="Left" Height="438" Margin="10,100,0,0" VerticalAlignment="Top" Width="501" MouseDoubleClick="AvailableRuneList_DoubleClickOrRightClick" MouseRightButtonUp="AvailableRuneList_DoubleClickOrRightClick" Foreground="White" FontSize="16" Background="#66505050" SelectionChanged="AvailableRuneList_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Rune"/>
